@@ -16,7 +16,9 @@ class Neighborhood {
   }
   
   // returns a list of all deliveries placed in a Neighborhood
-  
+  deliveries() {
+    return store.deliveries
+  }
   // returns all of the customers that live in a particular neighborhood
   
   // returns a unique list of meals that have been ordered in a particular neighborhood
