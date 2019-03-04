@@ -31,3 +31,7 @@ class Customer {
   }
   
 }
+
+class Meal {
+  
+}
