@@ -34,6 +34,11 @@ class Customer {
 
 class Meal {
   constructor(title, price) {
+    this.title = title;
+    this.price = price;
+    this.id = ++mealId;
     
+    // add new instance of Meal to store's meals array
+    stores.meals.push(this);
   }
 }
