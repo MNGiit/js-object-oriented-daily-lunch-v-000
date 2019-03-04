@@ -33,6 +33,7 @@ class Customer {
 }
 
 class Meal {
+  
   constructor(title, price) {
     this.title = title;
     this.price = price;
@@ -41,4 +42,10 @@ class Meal {
     // add new instance of Meal to store's meals array
     stores.meals.push(this);
   }
+  
+  // Class method, so use keyword -> static
+  static byPrice() {
+    return stores.meals
+  }
+  
 }
