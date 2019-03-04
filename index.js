@@ -26,6 +26,8 @@ class Neighborhood {
   //    return functionToBeCopied.bind(thisValue);
   // }
   
+  
+  
   // function returnNewFunctionOf(functionToBeCopied, thisValue){
   //  return functionToBeCopied.bind(thisValue);
   // }
