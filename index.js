@@ -17,7 +17,10 @@ class Neighborhood {
   
   // returns a list of all deliveries placed in a Neighborhood
   deliveries() {
-    return store.deliveries.filter
+    return store.deliveries.filter(
+      function(delivery) {
+        return delivery.neighborhoodId === this.id;
+      });
   }
   
   trips() {
