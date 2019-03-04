@@ -22,6 +22,14 @@ class Neighborhood {
         return delivery.neighborhoodId === this.id;
       }.bind(this));
   }
+  // deliveries(functionToBeCopied, thisvalue){
+  //    return functionToBeCopied.bind(thisValue);
+  // }
+  
+  // function returnNewFunctionOf(functionToBeCopied, thisValue){
+  //  return functionToBeCopied.bind(thisValue);
+  // }
+  
   
   // returns all of the customers that live in a particular neighborhood
   
