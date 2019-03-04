@@ -4,6 +4,7 @@ let store = { neighborhoods: [], meals: [], customers: [], deliveries: [] };
 // Id for each Class: Neighborhood, Customer, Meal, Deliveries
 let neighborhoodId = 0;
 let customerId = 0;
+let mealId = 0;
 
 class Neighborhood {
   constructor(name) {
