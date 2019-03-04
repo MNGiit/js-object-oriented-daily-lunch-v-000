@@ -20,7 +20,7 @@ class Neighborhood {
     return store.deliveries.filter(
       function(delivery) {
         return delivery.neighborhoodId === this.id;
-      });
+      }.bind(this));
   }
   
   // returns all of the customers that live in a particular neighborhood
