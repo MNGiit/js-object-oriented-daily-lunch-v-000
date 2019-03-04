@@ -25,7 +25,7 @@ class Neighborhood {
   // deliveries(functionToBeCopied, thisvalue){
   //    return functionToBeCopied.bind(thisValue);
   // }
-  // deliveries(functionToBeCopied, thisvalue){
+  // deliveries(functionToBeCopied, this){
   //    return functionToBeCopied.bind(this);
   // }
   
