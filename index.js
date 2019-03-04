@@ -23,14 +23,6 @@ class Neighborhood {
       });
   }
   
-  trips() {
-    return store.trips.filter(
-      function(trip) {
-        return trip.driverId === this.id;
-      }.bind(this));
-  }
-
-  
   // returns all of the customers that live in a particular neighborhood
   
   // returns a unique list of meals that have been ordered in a particular neighborhood
