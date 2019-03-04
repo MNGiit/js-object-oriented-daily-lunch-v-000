@@ -53,3 +53,14 @@ class Meal {
   }
   
 }
+
+class Delivery {
+  constructor(mealId, neighborhoodId, customerId) {
+    this.mealId = mealId;
+    this.neighborhoodId = neighborhoodId;
+    this.customerId = customerId;
+    
+    // add new instance of Delivery to store's deliveries array
+    store.deliveries.push(this);
+  }
+}
