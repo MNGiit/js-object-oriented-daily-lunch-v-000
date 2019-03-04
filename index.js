@@ -41,7 +41,7 @@ class Meal {
     this.id = ++mealId;
     
     // add new instance of Meal to store's meals array
-    stores.meals.push(this);
+    store.meals.push(this);
   }
   
   // Class method, so use keyword -> static
