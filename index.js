@@ -25,8 +25,9 @@ class Neighborhood {
 }
 
 class Customer {
-  constructor(name) {
+  constructor(name, neighborhoodId) {
     this.name = name;
+    this.neighborhoodId = neighborhoodId;
     this.id = ++customerId;
     
     // add new instance of Customer to store's customers array
