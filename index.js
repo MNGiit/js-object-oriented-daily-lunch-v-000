@@ -8,8 +8,9 @@ let customerId = 0;
 class Neighborhood {
   constructor(name) {
     this.name = name;
+    this.id = ++neighborhoodId;
     
-    // add new instance of Neighborhood to store's neighborhoods 
+    // add new instance of Neighborhood to store's neighborhoods array
     store.neighborhoods.push(this);
   }
   
@@ -21,5 +22,12 @@ class Neighborhood {
 }
 
 class Customer {
-  constructor()
+  constructor(name) {
+    this.name = name;
+    this.id = ++customerId;
+    
+    // add new instance of Customer to store's customers array
+    store.customers.push(this);
+  }
+  
 }
