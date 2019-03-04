@@ -20,6 +20,7 @@ class Neighborhood {
     return this.store
   }
   
+  
 
   
   // returns all of the customers that live in a particular neighborhood
