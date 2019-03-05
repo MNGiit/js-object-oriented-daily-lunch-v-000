@@ -120,4 +120,8 @@ class Delivery {
     // add new instance of Delivery to store's deliveries array
     store.deliveries.push(this);
   }
+  
+  
+  
+  
 }
