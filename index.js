@@ -50,11 +50,6 @@ class Neighborhood {
     return history;
   }
 
-
-
-
-
-
 }
 
 
