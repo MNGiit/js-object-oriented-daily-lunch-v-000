@@ -76,7 +76,7 @@ class Customer {
     // return this.meals().reduce((total, meal) => (total += meal.price), 0);
     return this.meals().reduce(function(sum, meal) {
       return sum + meal.price;
-    });
+    }, 0);
   }
   
   // [0, 1, 2, 3, 4].reduce(function(accumulator, currentValue, currentIndex, array) {
