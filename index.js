@@ -16,6 +16,7 @@ class Neighborhood {
   }
   
   // returns a list of all deliveries placed in a Neighborhood
+  // Neighborhood has deliveries
   deliveries() {
     return store.deliveries.filter(
       function(delivery) {
@@ -34,6 +35,7 @@ class Neighborhood {
   
   
   // returns all of the customers that live in a particular neighborhood
+  // Neighborhood has customers
   customers() {
     return store.customers.filter(
       function(customer) {
@@ -53,6 +55,7 @@ class Customer {
     store.customers.push(this);
   }
   
+  // 
 }
 
 class Meal {
