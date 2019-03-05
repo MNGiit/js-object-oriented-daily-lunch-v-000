@@ -50,7 +50,9 @@ class Neighborhood {
     let newArr = [];
     let anotherNewArr = newArr.concat.apply(newArr, history);
     
-    
+    // var mid = [3, 4];
+    // var arr = [1, 2, ...mid, 5, 6];
+    let lastArr = [... new Set(anotherNewArr)];
     return [...new Set(anotherNewArr)];
   }
   
