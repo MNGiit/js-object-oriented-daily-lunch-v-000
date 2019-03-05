@@ -62,6 +62,15 @@ class Customer {
         return delivery.customerId === this.id;
       }.bind(this));
   }
+  
+  // Customer has meals
+  meals() {
+    return store.meals.filter(
+      function(meal) {
+        return meal.customerId === this.id;
+      }.bind(this));
+  }
+  
 }
 
 class Meal {
