@@ -74,7 +74,14 @@ class Customer {
   // returns total amount Customer has spent
   totalSpent() {
     let sum = 0;
-    return this.meals().forEach(function(meal) {this.sum = this.sum + meal.price}.bind(this));
+    
+    function addPrices(price) {
+      return sum + price;
+    }
+    
+    return this.meals().forEach(addPrices(meal.price));
+    
+    // return this.meals().forEach(function(meal) {this.sum = this.sum + meal.price}.bind(this));
   }
   
 }
