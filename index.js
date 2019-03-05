@@ -54,6 +54,12 @@ class Neighborhood {
     let anotherNewArr = history.concat(newArr);
     return new Set(anotherNewArr);
   }
+  
+  
+  
+  
+  
+  
 
 }
 
