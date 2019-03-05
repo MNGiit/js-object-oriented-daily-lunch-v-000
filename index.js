@@ -103,7 +103,7 @@ class Meal {
   // Meal has unique customers (repeat customers aren't listed more than once)
   customers() {
     return this.deliveries().map(function(delivery) {
-      return 
+      return delivery.customerId;
     })
   }
   
