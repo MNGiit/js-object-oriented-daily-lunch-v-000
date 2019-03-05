@@ -73,10 +73,7 @@ class Customer {
   
   // returns total amount Customer has spent
   totalSpent() {
-    let total = 0;
-    return this.meals().filter(function(meal) {
-      return meal.price + total;
-    });
+    
   }
   
 }
