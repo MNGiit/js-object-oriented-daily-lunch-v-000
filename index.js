@@ -34,7 +34,12 @@ class Neighborhood {
   
   
   // returns all of the customers that live in a particular neighborhood
-  
+  customers() {
+    return store.customers.filter(
+      function(customer) {
+        return customer.neighborhoodId === this.id;
+      }.bind(this));
+  }
   // returns a unique list of meals that have been ordered in a particular neighborhood
 }
 
