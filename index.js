@@ -123,7 +123,7 @@ class Delivery {
   
   // Delivery belongs to a Meal
   meal() {
-    return store.meals.find(function(meal) {return meal.id === this.mealId});
+    return store.meals.find(function(meal) {return meal.id === this.mealId}).bind(this);
   }
   
 }
