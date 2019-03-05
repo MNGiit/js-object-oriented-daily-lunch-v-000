@@ -73,7 +73,6 @@ class Customer {
   
   // returns total amount Customer has spent
   totalSpent() {
-    // return this.meals().reduce((total, meal) => (total += meal.price), 0);
     return this.meals().reduce(function(sum, meal) {
       return sum + meal.price;
     }, 0);
