@@ -100,6 +100,11 @@ class Meal {
       }.bind(this));
   }
   
+  // Meal has unique customers (repeat customers aren't listed more than once)
+  customers() {
+    return
+  }
+  
 }
 
 class Delivery {
