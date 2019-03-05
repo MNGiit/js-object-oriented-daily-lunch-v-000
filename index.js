@@ -55,7 +55,10 @@ class Customer {
     store.customers.push(this);
   }
   
-  // 
+  // Customer has deliveries
+  deliveries() {
+    return store.
+  }
 }
 
 class Meal {
