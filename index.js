@@ -64,13 +64,8 @@ class Customer {
       }.bind(this));
   }
   
-  // Customer has meals
-  meals() {
-    return store.meals.filter(
-      function(meal) {
-        return meal.customerId === this.id;
-      }.bind(this));
-  }
+  // returns all meals Customer ordered
+  
   
 }
 
