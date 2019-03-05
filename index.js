@@ -82,7 +82,10 @@ class Customer {
   // [0, 1, 2, 3, 4].reduce(function(accumulator, currentValue, currentIndex, array) {
   // return accumulator + currentValue;
   // });
-  
+  // var sum = euros.reduce( function(total, amount){
+  //  return total + amount
+  // });
+  // sum // 1
   
 }
 
