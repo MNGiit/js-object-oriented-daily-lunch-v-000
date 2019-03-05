@@ -28,17 +28,6 @@ class Neighborhood {
   // deliveries(functionToBeCopied, this){
   //    return functionToBeCopied.bind(this);
   // }
-  deliveries() {
-    return this.
-  }
-  // Driver has passengers
-  // passengers() {
-  //  return this.trips().map(function(trip) {
-  //    return trip.passenger();
-  //  });
-  // }
-  
-  
   // function returnNewFunctionOf(functionToBeCopied, thisValue){
   //  return functionToBeCopied.bind(thisValue);
   // }
