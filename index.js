@@ -50,7 +50,7 @@ class Neighborhood {
     return history;
   }
 
-
+}
 
 
 class Customer {
