@@ -77,6 +77,9 @@ class Customer {
     return this.meals().reduce(sum, meal)
   }
   
+  
+  
+  
 }
 
 class Meal {
