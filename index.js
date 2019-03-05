@@ -133,7 +133,8 @@ class Delivery {
   
   // returns Neighborhood that Delivery was placed in
   delivery() {
-    return store.neighborhoods.find(function(neighborhood) {return neighborhood.id === this.neighborhoodId}.bind(this.customer()));
+    const thisId = this.customer().neighborhoodId;
+    return store.neighborhoods.find(function(neighborhood) {return neighborhood.id === thisId});
   }
   
 }
