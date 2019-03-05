@@ -121,7 +121,9 @@ class Delivery {
     store.deliveries.push(this);
   }
   
-  
-  
+  // Delivery belongs to a Meal
+  meal() {
+    return this.mealId;
+  }
   
 }
