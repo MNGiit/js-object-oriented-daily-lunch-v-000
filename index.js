@@ -43,8 +43,11 @@ class Neighborhood {
         return customer.neighborhoodId === this.id;
       }.bind(this));
   }
-  // returns a unique list of meals that have been ordered in a particular neighborhood
   
+  // returns a unique list of meals that have been ordered in a particular neighborhood
+  meals() {
+    
+  }
 }
 
 class Customer {
