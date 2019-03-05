@@ -51,8 +51,8 @@ class Neighborhood {
       return customer.meals();
     });
     let newArr = [];
-    
-    return history.concat(newArr);
+    let anotherNewArr = history.concat(newArr);
+    return new Set(anotherNewArr);
   }
 
 }
