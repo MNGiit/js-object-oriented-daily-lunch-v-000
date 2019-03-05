@@ -53,7 +53,7 @@ class Neighborhood {
     // var mid = [3, 4];
     // var arr = [1, 2, ...mid, 5, 6];
     let lastArr = [... new Set(anotherNewArr)];
-    return [...new Set(anotherNewArr)];
+    return lastArr;
   }
   
 }
