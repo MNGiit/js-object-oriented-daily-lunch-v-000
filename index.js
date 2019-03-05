@@ -50,11 +50,7 @@ class Neighborhood {
     return history;
   }
 
-    meals() {
-      const allMeals = this.customers().map(customer => customer.meals());
-      const merged = [].concat.apply([], allMeals);
-      return [...new Set(merged)];
-    }
+
 
 
 class Customer {
