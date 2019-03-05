@@ -47,14 +47,14 @@ class Neighborhood {
   // returns a unique list of meals that have been ordered in a particular neighborhood
   meals() {
     let history = this.customers().map(function(customer) {return customer.meals()});
-    let historyTwo = history.reduce(function())
-    // doesn't work but it's close i think
-    return unique;
-    // return history.filter(function(item, i, ar){ return ar.indexOf(item) === i; });
+    return history;
   }
-}
 
-
+    meals() {
+      const allMeals = this.customers().map(customer => customer.meals());
+      const merged = [].concat.apply([], allMeals);
+      return [...new Set(merged)];
+    }
 
 
 class Customer {
