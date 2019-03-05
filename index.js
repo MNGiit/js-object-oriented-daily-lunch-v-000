@@ -71,6 +71,10 @@ class Customer {
     });
   }
   
+  // returns total amount Customer has spent
+  totalSpent() {
+    
+  }
   
 }
 
