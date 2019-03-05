@@ -101,7 +101,7 @@ class Meal {
       }.bind(this));
   }
   
-  // Meal has unique customers (repeat customers aren't listed more than once)
+  // Meal has unique customers
   customers() {
     return this.deliveries().map(function(delivery) {
       return delivery.customer();
