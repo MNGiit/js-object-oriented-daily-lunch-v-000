@@ -92,7 +92,13 @@ class Meal {
     return store.meals.sort(function(a, b) {return b.price - a.price});
   }
   
-  // Meal has customers
+  // Meal has deliveries
+  deliveries() {
+    return store.deliveries.filter(
+      function(delivery) {
+        return delivery.mealId === this.id;
+      }.bind(this));
+  }
   
 }
 
