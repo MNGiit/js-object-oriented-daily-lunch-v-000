@@ -50,6 +50,9 @@ class Neighborhood {
     let newArr = [];
     let anotherNewArr = newArr.concat.apply(newArr, history);
     
+    
+    // var items = [4,5,4,6,3,4,5,2,23,1,4,4,4]
+    // var uniqueItems = Array.from(new Set(items))
     // var mid = [3, 4];
     // var arr = [1, 2, ...mid, 5, 6];
     let lastArr = [... new Set(anotherNewArr)];
