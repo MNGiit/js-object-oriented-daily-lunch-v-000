@@ -47,7 +47,7 @@ class Neighborhood {
   // returns a unique list of meals that have been ordered in a particular neighborhood
   meals() {
     let history = this.customers().map(function(customer) {return customer.meals()});
-    history = history.flat;
+    let unique = new Set(history)
     // doesn't work but it's close i think
     return new Set(history);
     // return history.filter(function(item, i, ar){ return ar.indexOf(item) === i; });
