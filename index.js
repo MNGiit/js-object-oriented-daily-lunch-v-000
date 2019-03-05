@@ -47,8 +47,8 @@ class Neighborhood {
   // returns a unique list of meals that have been ordered in a particular neighborhood
   meals() {
     // let history = this.customers().map(function(customer) {return customer.meals()});
-    const history = this.customers().map(customer => customer.meals());
-    const merged = [].concat.apply([], allMeals);
+    let history = this.customers().map(function(customer) {return customer.meals()});
+    const merged = [].concat.apply([], history);
     return [...new Set(merged)];
   }
   
