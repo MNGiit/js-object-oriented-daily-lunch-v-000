@@ -73,6 +73,7 @@ class Customer {
   
   // returns total amount Customer has spent
   totalSpent() {
+    let sum = 0;
     return this.meals().forEach()
   }
   
