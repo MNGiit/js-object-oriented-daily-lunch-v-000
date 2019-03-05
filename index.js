@@ -65,6 +65,9 @@ class Customer {
   }
   
   // returns all meals Customer ordered
+  meals() {
+    return this.deliveries().meal.map;
+  }
   
   
 }
