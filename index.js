@@ -57,7 +57,10 @@ class Customer {
   
   // Customer has deliveries
   deliveries() {
-    return store.
+    return store.deliveries.filter(
+      function(delivery) {
+        return delivery.customerId === this.id;
+      }.bind(this));
   }
 }
 
