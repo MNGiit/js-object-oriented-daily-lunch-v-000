@@ -49,7 +49,7 @@ class Neighborhood {
     let history = this.customers().map(function(customer) {return customer.meals()});
     let unique = new Set(history)
     // doesn't work but it's close i think
-    return new Set(history);
+    return unique;
     // return history.filter(function(item, i, ar){ return ar.indexOf(item) === i; });
   }
 }
