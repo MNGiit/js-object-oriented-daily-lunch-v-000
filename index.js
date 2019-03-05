@@ -50,8 +50,9 @@ class Neighborhood {
     let history = this.customers().map(function(customer) {
       return customer.meals();
     });
-    let newArr = new Set(history);
-    return newArr;
+    let newArr = [];
+    
+    return history.concat(newArr);
   }
 
 }
