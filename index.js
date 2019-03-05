@@ -123,7 +123,7 @@ class Delivery {
   
   // Delivery belongs to a Meal
   meal() {
-    return store.meals.find(this.mealId);
+    return store.meals.id.find(this.mealId);
   }
   
 }
