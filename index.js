@@ -102,7 +102,7 @@ class Meal {
   
   // Meal has unique customers (repeat customers aren't listed more than once)
   customers() {
-    return
+    return this.deliveries().map
   }
   
 }
