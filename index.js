@@ -52,7 +52,7 @@ class Neighborhood {
     });
     let newArr = [];
     newArr.push(history.concat(newArr));
-    return new Set(newArr);
+    return [...new Set(merged)];
   }
   
   
